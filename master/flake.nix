@@ -11,7 +11,6 @@
   inputs.src-barbarus-master.ref   = "refs/heads/master";
   inputs.src-barbarus-master.owner = "cjxgm";
   inputs.src-barbarus-master.repo  = "barbarus";
-  inputs.src-barbarus-master.dir   = "";
   inputs.src-barbarus-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
